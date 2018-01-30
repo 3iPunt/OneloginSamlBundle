@@ -22,6 +22,12 @@ class Configuration implements ConfigurationInterface
 
         $rootNode
             ->children()
+                ->arrayNode('compress')
+                    ->children()
+                        ->booleanNode('requests')->end()
+                        ->booleanNode('responses')->end()
+                    ->end()
+                ->end()
                 ->booleanNode('strict')->end()
                 ->booleanNode('debug')->end()
                 ->arrayNode('idp')
