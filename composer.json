@@ -19,7 +19,7 @@
     "require": {
         "symfony/framework-bundle": "~2.3|~3.0|^4.0",
         "symfony/security-bundle": "~2.3|~3.0|^4.0",
-        "3iPunt/php-saml": "master"
+        "3iPunt/php-saml": "dev-master"
     },
     "require-dev": {
         "symfony/phpunit-bridge": "~2.7|~3.0|^4.0",
