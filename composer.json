@@ -8,7 +8,11 @@
         {
             "name": "hslavich",
             "email": "hernan.slavich@gmail.com"
-        }
+        },
+        {
+            "name": "abertranb",
+            "email": "antoni@tresipunt.com"
+        },
     ],
     "require": {
         "symfony/framework-bundle": "~2.3|~3.0|^4.0",
