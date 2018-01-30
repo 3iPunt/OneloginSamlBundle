@@ -37,6 +37,9 @@ Configure SAML metadata in `app/config/config.yml`. Check https://github.com/one
 ``` yml
 hslavich_onelogin_saml:
     # Basic settings
+    compress:
+        requests: false
+        responses: false
     idp:
         entityId: 'http://id.example.com/saml2/idp/metadata.php'
         singleSignOnService:
